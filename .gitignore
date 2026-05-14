@@ -1,0 +1,85 @@
+# =============================================================================
+# Unity boilerplate (auto-generated / per-machine — never commit)
+# =============================================================================
+/[Ll]ibrary/
+/[Tt]emp/
+/[Oo]bj/
+/[Bb]uild/
+/[Bb]uilds/
+/[Ll]ogs/
+/[Uu]ser[Ss]ettings/
+/[Mm]emoryCaptures/
+/[Rr]ecordings/
+.vs/
+.gradle/
+.consulo/
+ExportedObj/
+
+# IDE / solution files (Unity regenerates these)
+*.csproj
+*.unityproj
+*.sln
+*.slnx
+*.suo
+*.tmp
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+*.pidb.meta
+*.pdb.meta
+*.mdb.meta
+
+# Crash / build artifacts
+sysinfo.txt
+*.apk
+*.aab
+*.unitypackage
+*.app
+crashlytics-build.properties
+
+# Addressables
+/[Aa]ssets/[Aa]ddressable[Aa]ssets[Dd]ata/*/*.bin*
+/[Aa]ssets/[Ss]treamingAssets/aa.meta
+/[Aa]ssets/[Ss]treamingAssets/aa/*
+
+# Built AssetBundle output (the whole point is to rebuild these)
+/AssetBundles/
+
+# Claude Code local settings
+.claude/settings.local.json
+
+# =============================================================================
+# Assets/ allowlist — ignore everything, then re-include only what the repo
+# needs to ship: Editor scripts, PuckAssets-main, and DefaultScene.
+# =============================================================================
+/Assets/*
+/Assets/.*
+
+# Re-include the three folders/files we want
+!/Assets/Editor/
+!/Assets/Editor.meta
+!/Assets/PuckAssets-main/
+!/Assets/PuckAssets-main.meta
+!/Assets/Scenes/
+!/Assets/Scenes.meta
+
+# Inside Scenes/, only DefaultScene
+/Assets/Scenes/*
+!/Assets/Scenes/DefaultScene.unity
+!/Assets/Scenes/DefaultScene.unity.meta
+
+# Inside Editor/, exclude generated audit artifacts (keep the .cs scripts)
+/Assets/Editor/DanceClubBundleContents.csv
+/Assets/Editor/DanceClubBundleContents.csv.meta
+/Assets/Editor/DanceClubShaderAudit.csv
+/Assets/Editor/DanceClubShaderAudit.csv.meta
+/Assets/Editor/DanceClubTextureAudit.csv
+/Assets/Editor/DanceClubTextureAudit.csv.meta
+/Assets/Editor/DanceClubTextureBackup.json
+/Assets/Editor/DanceClubTextureBackup.json.meta
